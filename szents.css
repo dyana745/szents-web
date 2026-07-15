@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    position: sticky;
+    top: 0;
+}
+
+#navigacio
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #AAB7B8;
+    display: flex;
+}
+
+#navigacio li a
+{
+    display: block;
+    color: #F7F9F9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+#navigacio li a:hover
+{
+    background-color: #373F43;
+}
+
+#navigacio li a.active
+{
+    background-color: #373F43;
+}
+
+
+#elsoszakasz
+{
+    background-image: url("teto.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    padding-left: 80px;
+    padding-top: 100px;
+    padding-bottom:80px;
+
+}
+
+#logo
+{
+    padding-bottom: 20px;
+    width: 400px;
+    background-color: #AAB7B8;
+    border-radius: 50%;
+}
+
+#cegnev
+{
+    margin-top: 40px;
+    text-align: center;
+    width: 55%;
+    border-radius: 30px;
+    background-color: #AAB7B8;
+    color: #F7F9F9;
+    font-size: 80px;
+}
+
+#masodikszakasz
+{
+    background-color: #AAB7B8;
+    text-align: center;
+    color: #F7F9F9;
+    padding: 5%;
+    padding-top: 6%;
+}
+
+#mitvallalunk
+{
+    font-size: 45px;
+}
+
+#alsovonal1
+{
+    width: 80%;
+    max-width: 900px;
+    height: 2px;
+    background-color: #F7F9F9;
+    border-radius: 10px;
+    margin: 5px auto 40px auto;
+}
+
+#lista
+{
+    font-size: 30px;
+    list-style: none;
+}
+
+#harmadikszakasz
+{
+    margin: 2%;
+    text-align: center;
+    color: #373F43;
+    font-size: 30px;
+    padding-top: 6%;
+}
+
+#alsovonal2
+{
+    width: 80%;
+    max-width: 900px;
+    height: 2px;
+    background-color: #373F43;
+    border-radius: 10px;
+    margin: 5px auto 40px auto;
+}
+
+.kepek img
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    display: block;
+    border-radius: 8px;
+    padding-top: 3%;
+}
+
+.kepek
+{
+    column-count: 3;
+    column-gap: 15px;
+}
+
+@media (max-width: 800px) {
+  .kepek {
+    column-count: 2; 
+  }
+}
+
+@media (max-width: 500px) {
+  .kepek {
+    column-count: 1;
+  }
+}
+
+
+
+#lablec
+{
+    background-color: #AAB7B8;
+    color: #F7F9F9;
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+
+#elerhetoseg
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+#terelvalaszto
+{
+    width: 80%;
+    max-width: 900px;
+    height: 2px;
+    background-color: #F7F9F9;
+    border-radius: 10px;
+    margin: 0 auto 40px auto;
+}
+
+#tartalom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#munkanapokon
+{
+    font-size: larger;
+}
+
+#info
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    font-size: large;
+}
+
+#info p
+{
+    margin: 0;
+}
+
+#terkep iframe
+{
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 800px) {
+  .contact-content {
+    flex-direction: column;    /* Vízszintesről függőlegesre vált */
+    gap: 40px;                 /* Kisebb térköz mobilon */
+  }
+}
