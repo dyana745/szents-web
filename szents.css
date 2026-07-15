@@ -51,6 +51,9 @@ header
     background-color: #373F43;
 }
 
+#elsoszakasz, #masodikszakasz, #harmadikszakasz, #lablec {
+    scroll-margin-top: 70px; 
+}
 
 #elsoszakasz
 {
@@ -81,7 +84,7 @@ header
     border-radius: 30px;
     background-color: #AAB7B8;
     color: #F7F9F9;
-    font-size: 80px;
+    font-size: clamp(40px, 6vw, 80px);
 }
 
 #masodikszakasz
@@ -227,7 +230,7 @@ header
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 800px) {
-  .contact-content {
+  #tartalom {
     flex-direction: column;    /* Vízszintesről függőlegesre vált */
     gap: 40px;                 /* Kisebb térköz mobilon */
   }
