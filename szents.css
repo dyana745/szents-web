@@ -28,6 +28,8 @@ header
     padding: 0;
     background-color: #AAB7B8;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #navigacio li a
@@ -62,16 +64,18 @@ header
     background-position: center;
     background-repeat: no-repeat;
     
-    padding-left: 80px;
-    padding-top: 100px;
-    padding-bottom:80px;
+    padding: 60px 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 #logo
 {
     padding-bottom: 20px;
-    width: 400px;
+    max-width: 400px;
+    height: auto;
     background-color: #AAB7B8;
     border-radius: 50%;
 }
@@ -80,7 +84,8 @@ header
 {
     margin-top: 40px;
     text-align: center;
-    width: 55%;
+    width: 90%;
+    max-width: 600px;
     border-radius: 30px;
     background-color: #AAB7B8;
     color: #F7F9F9;
